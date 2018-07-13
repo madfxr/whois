@@ -15,9 +15,11 @@ First you need to install Git, Nginx, PHP-FPM and PHP on your server and the fol
 yum update -y
 yum install git nginx php php-fpm -y
 adduser whois
-whois passwd
-cd / home /
+passwd whois
+cd /home/
 git clone https://github.com/xnxmx/whois.git
+find . -type d -print0 | xargs -0 chmod 0755
+find . -type f -print0 | xargs -0 chmod 0644
 ```
 The next step, you have to configure Nginx and PHP-FPM
 
