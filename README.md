@@ -2,7 +2,7 @@
 
 Web-based application that works to search WHOIS data in TLD category managed by Internet Assigned Numbers Authority (IANA) such as TLD, gTLD, ccTLD and mTLD
 
-## Terms and conditions
+## Requirments
 - Git
 - Nginx
 - PHP-FPM
