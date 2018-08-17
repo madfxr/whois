@@ -612,8 +612,8 @@
 <br />
 <form action="<?=$_SERVER['PHP_SELF'];?>">
     <p>
-    <input name="domain" id="domain" placeholder="Enter Domain or IP Address" style="padding-bottom: 2px; height: 29px; weight: 176px;" value="<?=$domain;?>" type="text">
-    <button type="submit" class="btn btn-primary" style="background-color: #df6919; border-color: #df6919;margin-top: -5px;padding-top: 5px;padding-bottom: 5px;"><b>WHOIS</b> <span class="fa fa-search" aria-hidden="true"></span></button> <a href="https://dig.pwned.my.id" class="btn btn-primary" style="background-color: #df6919; border-color: #df6919;margin-top: -5px;padding-top: 5px;padding-bottom: 5px;"><b>DIG</b> <span class="fa fa-globe" aria-hidden="true"></span></a>
+    <input name="domain" id="domain" placeholder="Enter Domain or IP Address" value="" style="padding-bottom: 1px; height: 33px; weight: 176px;padding-top: 2px;" type="text">
+    <button type="submit" class="btn btn-primary" style="background-color: #df6919; border-color: #df6919;margin-top: 0px;padding-top: 7px;padding-bottom: 3px;"><b>WHOIS</b> <span class="fa fa-search" aria-hidden="true"></span></button> <a href="https://dig.pwned.my.id" class="btn btn-primary" style="background-color: #df6919; border-color: #df6919;margin-top: 0px;padding-top: 7px;padding-bottom: 3px;"><b>DIG</b> <span class="fa fa-globe" aria-hidden="true"></span></a>
     </p>
 </form>
 </center>
