@@ -1,15 +1,15 @@
 # WHOIS Lookup Utility for TLD, gTLD, ccTLD & mTLD
 
-Web-based application that works to search WHOIS data in TLD category managed by Internet Assigned Numbers Authority (IANA) such as TLD, gTLD, ccTLD and mTLD
+A web-based application that works to search WHOIS data in TLD category managed by Internet Assigned Numbers Authority (IANA) such as TLD, gTLD, ccTLD and mTLD
 
-## Requirments
+## Requirements
 - Git
 - Nginx
 - PHP-FPM
 - PHP
 
 ## Installation
-First you need to install Git, Nginx, PHP-FPM and PHP on your server and the following commands you can follow:
+First, you need to install Git, Nginx, PHP-FPM and PHP on your server and the following commands you can follow:
 
 ```
 yum update -y
