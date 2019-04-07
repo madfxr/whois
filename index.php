@@ -556,7 +556,7 @@
 <html onclick="toggleFullScreen ();">
     <head>
         <script>
-            var title ="WHOIS Lookup Utility: for TLD, gTLD, ccTLD and mTLD | PWNED.MY.ID | ";
+            var title ="Jelasti X GitLab | WHOIS Lookup Utility: for TLD, gTLD, ccTLD and mTLD | PWNED.MY.ID | ";
             var speed = 100;
             var refresh = null;
             function action()
