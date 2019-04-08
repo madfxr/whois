@@ -138,7 +138,7 @@
         "equipment" => "whois.donuts.co", // –
         "estate" => "whois.donuts.co", // –
         "es" => "whois.nic.es", // Spain
-        "eu" => "whois.eu", // Europe
+	"eu" => "whois.eu", // Europe
         "eus" => "whois.eus.coreregistry.net", // –
         "events" => "whois.donuts.co", // –
         "exchange" => "whois.donuts.co", // –
@@ -631,7 +631,7 @@ if($domain) {
                 echo "<center><kbd>Domain Lookup Found!</kbd></center>";
         }
         else die("<center><kbd>Sorry! Invalid Domain or IP Address</kbd></center>");
-        echo "<blockquote><pre>\n" . $result . "\n <center>.: WHOIS Lookup Utility | Copyright © 2018 by MADFXR :.</center></pre></blockquote>";
+        echo "<blockquote><pre>\n" . $result . "\n <center>.: https://t.me/whoisXbot :.</center</pre></blockquote>";
 }
 ?>
 
@@ -654,7 +654,8 @@ if($domain) {
     }
 </script>
 </body>
-<!--    <script type="text/javascript">
+    <!--<script type="text/javascript">
+
             function toggleFullScreen()
             {
                 if ((document.fullScreenElement && document.fullScreenElement !== null) ||
