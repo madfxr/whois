@@ -1,5 +1,7 @@
 <?php
-    $domain = $_GET['domain'];
+    if(isset($_GET['domain'])) {
+        $domain = $_GET['domain'];
+    }
     // For the full list of TLDs/Whois servers see http://www.iana.org/domains/root/db/ and http://www.whois365.com/en/listtld/
     $whoisservers = array(
         "ac" => "whois.nic.ac", // Ascension Island
@@ -618,7 +620,7 @@
 </form>
 </center>
 <?php
-if($domain) {
+if(isset($domain)) {
         $domain = trim($domain);
         if(substr(strtolower($domain), 0, 7) == "http://") $domain = substr($domain, 7);
         if(substr(strtolower($domain), 0, 4) == "www.") $domain = substr($domain, 4);
