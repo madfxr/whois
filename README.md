@@ -17,7 +17,7 @@ yum install git nginx php php-fpm -y
 adduser whois
 passwd whois
 cd /home/
-git clone https://github.com/xnxmx/whois.git
+git clone https://github.com/madfxr/whois.git
 find . -type d -print0 | xargs -0 chmod 0755
 find . -type f -print0 | xargs -0 chmod 0644
 ```
